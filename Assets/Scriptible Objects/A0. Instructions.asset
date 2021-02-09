@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70a5ae942823fe643b673e52b4bee56a, type: 3}
+  m_Name: A0. Instructions
+  m_EditorClassIdentifier: 
+  storyTitle: Instructions
+  storyText: 'Welcome to my Text Adventure Game
+
+
+    Press 1 to start the main Story.
+
+    You can choose the different paths by pressing 1 or 2.
+
+
+    At any given time you can press the ESCAPE key to exit the application.'
+  nextStates:
+  - {fileID: 11400000, guid: 35b2dc0f45c3bf94a8e306fce9c17db1, type: 2}
